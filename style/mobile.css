@@ -18,6 +18,7 @@ header {
 	align-items: center;
 	justify-content: space-between;
 	padding: 0 25px;
+    margin-bottom: 5px;
 }
 
 .logo {
@@ -87,4 +88,67 @@ header {
 .nav-bar ul li a.active {
 	color: #2b5502;
 	background: #fefefe;
+}
+
+/*LandingPage*/
+main {
+    width: 100%;
+}
+
+.news-section figure img {
+    width: 100%;
+    height: auto;
+}
+
+.news-title {
+    background: #fefefe;
+    padding: 10px 10px;
+    font-size: 18px;
+}
+
+.news-title h1 {
+    font-size: 22px;
+    margin-bottom: 3px;
+}
+
+.news-title button  {
+    font-size: 15px;
+    margin: 3px 0 0 75%;
+    padding: 5px;
+    border-style: none;
+    border-radius: 20px;
+    background: #336600;
+}
+
+.news-title button a {
+    text-decoration: none;
+    color: #fefefe;
+}
+
+/*OfferOfTheDay*/
+.special-offer figure img {
+    width: 100%;
+    height: auto;
+}
+
+.special-offer {
+    margin: 5px 0 5px 0;
+    background: #fefefe;
+}
+
+.special-offer-description h1 {
+    font-size: 22px;
+    margin: 1%;
+}
+
+.special-offer-description h2 {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 1%;
+}
+
+.special-offer-description h3 {
+    font-size: 21px;
+    color: rgb(161, 11, 11);
+    margin: 0 0 1% 65%;
 }
