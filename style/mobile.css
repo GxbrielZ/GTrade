@@ -132,6 +132,7 @@ main {
 }
 
 .special-offer {
+    position: relative;
     margin: 5px 0 5px 0;
     background: #fefefe;
 }
@@ -152,3 +153,19 @@ main {
     color: rgb(161, 11, 11);
     margin: 0 0 1% 65%;
 }
+
+.tag {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 99;
+    background: rgb(161, 11, 11);
+    padding: 5px;
+    color: #fefefe;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 0 20px 20px 0;
+}
+
+/*PromotedOffers*/
+
