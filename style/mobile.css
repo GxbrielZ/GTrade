@@ -172,6 +172,24 @@ main {
     background: #fefefe;
 }
 
+.title-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2% 5% 2% 3%;
+}
+
+.title-container a {
+    font-size: 16px;
+    color: #000;
+    cursor: pointer;
+}
+
+.title {
+    font-size: 22px;
+    font-weight: bold;
+}
+
 .offers-container {
     display: flex;
     overflow-x: scroll;
@@ -187,6 +205,10 @@ main {
     color: #000;
 }
 
+.offer-link:last-child {
+    margin-right: 16px;
+}
+
 .offer {
     height: 100%;
     display: flex;
@@ -194,27 +216,31 @@ main {
 }
 
 .offer img {
-    width: 208px;
-    height: auto;
+    width: 250px;
+    height: 150px;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
-    object-fit: cover;
+    object-fit: fill;
 }
 
 .promoted-description {
-    border: 1px solid #000;
+    border: 1px solid rgb(175, 175, 175);
+    border-radius: 0 0 8px 8px;
+    padding: 2%;
 }
 
 .promoted-description h1 {
     font-size: 18px;
+    margin-bottom: 1%;
 }
 
 .promoted-description h2 {
     font-size: 14px;
+    color: rgb(83, 83, 83);
 }
 
 .promoted-description h3 {
-    font-size: 16px;
+    font-size: 17px;
     color: rgb(161, 11, 11);
-    margin: 0 0 0 60%;
+    margin: 1% 0 0 60%;
 }
