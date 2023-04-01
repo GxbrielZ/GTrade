@@ -9,6 +9,10 @@ body {
 	height: 100vh;
 }
 
+main {
+    width: 100%;
+}
+
 /*Navbar*/
 header {
 	width: 100%;
@@ -18,7 +22,6 @@ header {
 	align-items: center;
 	justify-content: space-between;
 	padding: 0 25px;
-    margin-bottom: 5px;
 }
 
 .logo {
@@ -90,39 +93,14 @@ header {
 	background: #fefefe;
 }
 
-/*LandingPage*/
-main {
-    width: 100%;
+/*TopNews*/
+.top-news {
+    padding: 1% 3%;
 }
 
-.news-section figure img {
+.top-news figure img {
     width: 100%;
     height: auto;
-}
-
-.news-title {
-    background: #fefefe;
-    padding: 10px 10px;
-    font-size: 18px;
-}
-
-.news-title h1 {
-    font-size: 22px;
-    margin-bottom: 3px;
-}
-
-.news-title button  {
-    font-size: 15px;
-    margin: 3px 0 0 75%;
-    padding: 5px;
-    border-style: none;
-    border-radius: 20px;
-    background: #336600;
-}
-
-.news-title button a {
-    text-decoration: none;
-    color: #fefefe;
 }
 
 /*OfferOfTheDay*/
@@ -133,7 +111,7 @@ main {
 
 .special-offer {
     position: relative;
-    margin: 5px 0 5px 0;
+    margin: 0 0 2% 0;
     background: #fefefe;
 }
 
@@ -243,4 +221,14 @@ main {
     font-size: 17px;
     color: rgb(161, 11, 11);
     margin: 1% 0 0 60%;
+}
+
+/*BottomNews*/
+.bottom-news {
+    padding: 2% 3%;
+}
+
+.bottom-news figure img {
+    width: 100%;
+    height: auto;
 }
