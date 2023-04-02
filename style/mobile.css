@@ -56,6 +56,7 @@ header {
 
 .nav-bar.active {
     height: 450px;
+    z-index: 99;
 }
 
 .nav-bar.active ul {
@@ -136,7 +137,7 @@ header {
     position: absolute;
     left: 0;
     top: 0;
-    z-index: 99;
+    z-index: 22;
     background: rgb(161, 11, 11);
     padding: 5px;
     color: #fefefe;
@@ -231,4 +232,39 @@ header {
 .bottom-news figure img {
     width: 100%;
     height: auto;
+}
+
+/*Footer*/
+.links-container {
+    background: #fefefe;
+    padding: 6% 8%;
+}
+
+.links-container a {
+    text-decoration: none;
+    color: #000;
+}
+
+.links-container a:hover {
+    text-decoration: underline;
+}
+
+.links-container ul {
+    list-style: none;
+}
+
+.links-container li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3%;
+}
+
+.socials h1 {
+    margin-bottom: 3%;
+}
+
+.socials img {
+    width: 30px;
+    height: 30px;
+    margin-right: 2%;
 }
