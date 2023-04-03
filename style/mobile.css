@@ -236,13 +236,21 @@ header {
 
 /*Footer*/
 .links-container {
-    background: #fefefe;
+    background: #336600;
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
     padding: 6% 8%;
+}
+
+.links-container h1 {
+    font-size: 22px;
+    margin-bottom: 3%;
 }
 
 .links-container a {
     text-decoration: none;
-    color: #000;
+    color: #fff;
 }
 
 .links-container a:hover {
@@ -256,7 +264,7 @@ header {
 .links-container li {
     display: flex;
     align-items: center;
-    margin-bottom: 3%;
+    margin: 0 0 8% 0%;
 }
 
 .socials h1 {
@@ -264,7 +272,7 @@ header {
 }
 
 .socials img {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     margin-right: 2%;
 }
