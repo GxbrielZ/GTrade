@@ -235,8 +235,12 @@ header {
 }
 
 /*Footer*/
-.links-container {
+footer {
     background: #336600;
+    color: #fff;
+}
+
+.links-container {
     display: flex;
     justify-content: space-between;
     color: #fff;
@@ -264,7 +268,7 @@ header {
 .links-container li {
     display: flex;
     align-items: center;
-    margin: 0 0 8% 0%;
+    margin: 0 0 5% 0%;
 }
 
 .socials h1 {
@@ -275,4 +279,28 @@ header {
     width: 20px;
     height: 20px;
     margin-right: 2%;
+}
+
+.sponsor-image {
+    display: flex;
+    align-items: center;
+}
+
+.sponsor-image figure {
+    margin: 8% 2%;
+}
+
+.sponsor-image figure img {
+    width: 88%;
+    height: auto;
+}
+
+.copyright {
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.copyright a {
+    color: #fff;
+    text-decoration: none;
 }
